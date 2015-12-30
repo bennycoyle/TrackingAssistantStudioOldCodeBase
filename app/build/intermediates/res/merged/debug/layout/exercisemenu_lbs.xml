@@ -1,0 +1,192 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2dbdc">
+    
+	<!-- Heading Row -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#b0b0b0"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Calculate Exercise"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+	</TableRow>
+         
+	<!--  Radio Button Row -->
+                         
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <RadioGroup
+            android:id="@+id/E_IM_intensity_RG"
+            android:layout_weight="2"
+            android:layout_height="fill_parent"
+            android:background="#cac9c9"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="0dip"
+            android:textColor="#000000" >
+			<RadioButton
+			    android:id="@+id/E_IM_low_RB"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:checked="true"
+			    android:textSize="13dp"
+			    android:text="Low" />
+			<RadioButton
+			    android:id="@+id/E_IM_med_RB"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:checked="false"
+			    android:textSize="13dp"
+			    android:text="Med" />
+			<RadioButton
+			    android:id="@+id/E_IM_high_RB"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:checked="false"
+			    android:textSize="13dp"
+			    android:text="High" />
+		</RadioGroup>
+	
+        <TextView
+            android:id="@+id/E_IM_pointsheading"
+            android:layout_weight="1"
+        	android:layout_width="match_parent"
+            android:background="#cac9c9"
+            android:gravity="center"
+            android:padding="15dip"
+            android:text=""
+            android:textColor="#000000" />
+	</TableRow>
+                        
+    <!-- Stones EditText row -->
+                    
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+
+		<EditText 
+		    android:layout_weight="2"
+			android:id="@+id/E_IM_stones"
+			android:layout_height="fill_parent" 
+			android:numeric="decimal" 
+			android:hint="Enter Stones"
+			android:layout_width="0dp"
+			android:background="#FFFFFF">"
+			<!-- android:background="@drawable/borderlines" -->
+		    <requestFocus />
+        </EditText>
+        
+		
+
+                           
+        <TextView
+            android:id="@+id/E_IM_points"
+            android:layout_weight="1"
+            android:background="#cac9c9"
+            android:gravity="center"
+            android:padding="15dip"
+            android:layout_width="0dp"
+            android:text=""
+            android:textColor="#000000" />
+	</TableRow> 
+    <!-- LBS EditText row -->    
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText android:layout_weight="2"
+			android:id="@+id/E_IM_pounds" 
+			android:layout_width="0dp" 
+			android:layout_height="fill_parent" 
+			android:numeric="decimal" 
+			android:hint="Enter Lbs"
+			android:background="#FFFFFF" >
+			
+		    <requestFocus />
+        </EditText>
+        <TextView
+            android:text=""
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="15dip"
+            android:gravity="center"/>
+        
+    </TableRow>
+    <!-- Time EditText row -->
+                        
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+		<EditText android:layout_weight="2"
+			android:id="@+id/E_IM_time" 
+			android:layout_width="0dp" 
+			android:layout_height="fill_parent" 
+			android:background="#FFFFFF"
+			android:hint="Enter Minutes Exercising" 
+			android:numeric="decimal">
+		    <requestFocus />
+		</EditText>
+
+		<TextView
+            android:text=""
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="15dip"
+            android:gravity="center"/>
+    </TableRow>
+               
+    <!--  -->
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/E_IM_errors"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_weight="3"
+            android:background="#d2dbdc"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>                        
+	</TableRow>
+                        
+    <!-- Bottom Row with Button That spans the Row -->
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+                        
+                    
+        <Button 
+			android:text="@string/button_text" 
+			android:layout_weight="2"
+			android:id="@+id/E_IM_calc" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+    </TableRow>                       
+</TableLayout>

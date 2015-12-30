@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tracking Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Calculate</string>
+    
+    <string name="drawerOpen">Time To Open Navigation Drawer</string>
+    <string name="drawerClose">Time To Close Navigation Drawer</string>
+    <string-array name="menuItems">
+        <item >SP Calculator</item>
+        <item >PP Calculator</item>
+        <item >PP Exercise Points</item>
+        <item >PP Daily Allowance</item>
+        <item >PP Food List</item>
+        <item >Filling &#65286; Healthy</item><!-- &#65286; is the & -->
+        <item >Boosters &#65286; Drinks</item>
+        <item >Treats</item>
+        <item >About App</item>
+    </string-array>
+    <string name="about_app_title">About Application</string>
+    <string name="about_app_content">This application can be used to generate points used, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others.</string>
+    <string name="about_designer_title">About Application Author</string>
+    <string name="about_designer_content">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since Jan 2008 and a Gold Member since November 2008. Find out more information at the following links!</string>
+    <string name="about_btkc_content">Find out more about his band \'Bite The Killer Cat\' at the following links!</string>
+    <string name="note_title">Note!</string>
+    <string name="note_content">I have designed this app as it will make my day to day tracking easier. I\'m putting it online so other people can use it as I find it helpful. The formula\'s I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all but from what I\'ve found, They\'re accurate!</string>
+    <color name="black">#000000</color>
+    <color name="grey">#838282</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#d2dbdc">
+        
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView
+	            android:id="@+id/AppDesignerHeading"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/about_designer_title"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+			</TableRow>
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+			<TextView
+			    android:id="@+id/AppDesignerContent"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/about_designer_content"
+			    android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+			</TableRow>
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="3"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="50dp"/>		
+        </TableRow>   
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">"
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/bcFacebook" 
+				android:background="@drawable/facebook"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/bcTwitter" 
+				android:background="@drawable/twitter"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				
+				android:layout_height="75dp"/>
+            
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/bcYoutube"
+				android:background="@drawable/youtube" 
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            
+		
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/bcGoogle"
+				android:background="@drawable/google" 
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/bcSoundcloud"
+				android:background="@drawable/soundcloud" 
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            
+            
+	    </TableRow>
+	    <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="3"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="30dp"/>		
+        </TableRow>   
+        
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            
+            
+            
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/about_btkc_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </TableRow>
+	    <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="3"
+				android:layout_width="0dp" 
+				android:padding="30dip"
+				android:layout_height="30dp"/>		
+        </TableRow>  
+	    <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="1"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/btkcFacebook" 
+				android:background="@drawable/facebook"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/btkcTwitter" 
+				android:background="@drawable/twitter"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            
+            <Button 
+				android:layout_weight="1"
+				android:id="@+id/btkcYoutube"
+				android:background="@drawable/youtube" 
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+            <TextView 
+				android:layout_weight="1"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="3"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="50dp"/>		
+        </TableRow>
+        
+        
+        
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView
+	            android:id="@+id/AppInfoHeading"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/about_app_title"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+	        </TableRow>
+	    <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">    
+
+	        <TextView
+	            android:id="@+id/AppInfoContent"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/about_app_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+			</TableRow>
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        
+	        <TextView
+	            android:id="@+id/textView5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+			</TableRow>
+			
+		
+		
+		
+        
+        
+        
+        
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView 
+				android:layout_weight="3"
+				android:layout_width="0dp" 
+				android:padding="50dip"
+				android:layout_height="50dp"/>		
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView
+	            android:id="@+id/NoteHeading"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/note_title"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+			</TableRow>
+		<TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+	        <TextView
+	            android:id="@+id/NoteContent"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/note_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+			</TableRow>
+    </TableLayout>
+    
+
+</ScrollView>

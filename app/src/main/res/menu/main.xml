@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <CheckBox
+        android:id="@+id/prefCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBoxPreference" />
+    
+    <TextView
+        android:id="@+id/prefEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/unitSelection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</menu>

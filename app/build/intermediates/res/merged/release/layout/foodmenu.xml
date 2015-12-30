@@ -1,0 +1,209 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2dbdc">
+	
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#b0b0b0"
+            android:gravity="center"
+            android:padding="15dip"
+            android:text="Calculate PP Points"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+   </TableRow>
+         
+   <!-- Protein & Points Heading Row -->
+
+   <TableRow
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <EditText
+           android:id="@+id/F_protein"
+           android:layout_height="fill_parent"
+           android:layout_weight="2"
+           android:layout_width="0dp"
+           android:hint="Enter Protein"
+           android:numeric="decimal"
+           android:background="#FFFFFF" >
+
+           <requestFocus />
+       </EditText>
+
+       <TextView
+           android:id="@+id/F_pointsheading"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:background="#cac9c9"
+           android:gravity="center"
+           android:padding="12dip"
+           android:text=""
+           android:textSize="15sp"
+           android:textColor="#000000" />
+   </TableRow>
+                        
+   <!--  Row 3 -->
+                         
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <EditText
+                                android:id="@+id/F_carbs"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:hint="Enter Carbohydrates"
+                                android:numeric="decimal"
+                                android:background="#FFFFFF" >
+
+                                <requestFocus />
+                            </EditText>
+
+                            <TextView
+                                android:id="@+id/F_points"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:background="#cac9c9"
+                                android:gravity="center"
+                                android:padding="12dip"
+                                android:textSize="15sp"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                        </TableRow>
+                        
+                        <!-- Row 4 -->
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <EditText
+                                android:id="@+id/F_fat"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:hint="Enter Total Fat"
+                                android:numeric="decimal"
+                                android:background="#FFFFFF" >
+
+                                <requestFocus />
+                            </EditText>
+
+                           
+                         <TextView
+                                android:text=""
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:background="#cac9c9"
+                                android:textColor="#000000"
+                                android:padding="12dip"
+                                android:gravity="center"/>
+                        </TableRow> 
+                        
+                        <!-- Row 5 -->
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <EditText
+                                android:id="@+id/F_fibre"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:hint="Enter Fibre"
+                                android:numeric="decimal"
+                                android:background="#FFFFFF" >
+
+                                <requestFocus />
+                            </EditText>
+
+                           
+                         <TextView
+                                android:text=""
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:background="#cac9c9"
+                                android:textColor="#000000"
+                                android:padding="12dip"
+                                android:gravity="center"/>
+                        </TableRow>
+                        
+                        <!-- Row 6 -->
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <EditText
+                                android:id="@+id/F_servings"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:hint="Enter # Servings"
+                                android:numeric="decimal"
+                                android:background="#FFFFFF" >
+
+                                <requestFocus />
+                            </EditText>
+
+                                                    
+                        
+                           
+                         <TextView
+                                android:text=""
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:background="#cac9c9"
+                                android:textColor="#000000"
+                                android:padding="12dip"
+                                android:gravity="center"/>                        
+                         </TableRow>
+
+                        <!-- Row 7 -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                           
+                           
+                         <TextView
+                                android:id="@+id/F_errors"
+                                android:text=""
+                                android:layout_weight="3"
+                                android:layout_width="0dp"
+                                android:background="#d2dbdc"
+                                android:textColor="#000000"
+                                android:padding="10dip"
+                                android:gravity="center"/>                        
+                         </TableRow>
+
+                         
+                        <!-- Bottom Row with Button That spans the Row -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+                            <Button 
+								android:text="@string/button_text" 
+								android:layout_weight="2"
+								android:id="@+id/F_calc" 
+								android:layout_width="wrap_content" 
+								android:layout_height="wrap_content"/>
+                        </TableRow>                       
+      </TableLayout>
+

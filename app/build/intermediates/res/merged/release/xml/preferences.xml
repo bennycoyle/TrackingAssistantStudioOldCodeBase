@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="Basic Settings">
+        <ListPreference 
+		    android:id="@+id/unitMeasurement"
+		    android:defaultValue="0"
+		    android:entries="@array/pref_unit_titles"
+		    android:entryValues="@array/pref_unit_values"
+		    android:key="unitType"
+		    android:negativeButtonText="@null"
+		    android:positiveButtonText="@null"
+		    android:title="@string/pref_item_select_unit" 
+		    android:summary="@string/pref_unit_summary"
+    	/>    
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="User Information">
+        <CheckBoxPreference
+                android:key="promptAge"
+                android:title="Prompt Age"
+                android:summary="Prompt age provided throughout the application"
+                android:defaultValue="false" />
+        
+        <com.bc.datepreference.DatePreference
+    		android:key="dob" 
+    		android:title="Date of Birth"
+    		android:summary="Enter DOB so age can be prompted in the application"
+    		android:defaultValue="1967.02.20"
+    		android:calendarViewShown="false"
+    		android:dependency="promptAge" />
+
+        
+
+<!--     </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="PreferenceCategory B">
+ -->
+        
+
+        <com.bc.heightpicker.CMPreference
+    		android:key="CMpicker" 
+    		android:title="Height Centimetres"
+    		android:dependency="promptAge"
+    		android:summary="Enter height so it can be prompted in the application"
+    		android:defaultValue="174" />
+        
+        <com.bc.heightpicker.FeetHeightPreference
+    		android:key="FIpicker" 
+    		android:title="Height Feet/Inches"
+    		android:dependency="promptAge"
+    		android:summary="Enter height so it can be prompted in the application"
+    		android:defaultValue="7-12" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

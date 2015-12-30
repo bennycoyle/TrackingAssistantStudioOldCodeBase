@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/borderlines.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/borderlines.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/facebook.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/facebook.png"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/youtube.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/youtube.png"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/twitter.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/twitter.png"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/google.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/google.png"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/drawable/soundcloud.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/soundcloud.png"
+    }
+]
