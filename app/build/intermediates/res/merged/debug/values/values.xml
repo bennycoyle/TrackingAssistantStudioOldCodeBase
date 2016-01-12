@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="menuItems">
-        <item>SP Calculator</item>
+    <string-array name="menuItemsPP">
         <item>PP Calculator</item>
         <item>PP Exercise Points</item>
         <item>PP Daily Allowance</item>
@@ -9,6 +8,14 @@
         <item>Filling ＆ Healthy</item><!-- &#65286; is the & -->
         <item>Boosters ＆ Drinks</item>
         <item>Treats</item>
+        <item>About App</item>
+    </string-array>
+    <string-array name="menuItemsSP">
+        <item>SP Calculator</item>
+        <item>SP Exercise Points</item>
+        <item>SP Food List</item>
+        <item>SP No Count List</item>
+        <item>SP Alcohol List</item>
         <item>About App</item>
     </string-array>
     <string-array name="pref_cm_values">
@@ -179,6 +186,14 @@
         <item>11</item>
         <item>11.5</item>
     </string-array>
+    <string-array name="pref_plan_titles">
+        <item>SmartPoints</item>
+        <item>ProPoints</item>
+    </string-array>
+    <string-array name="pref_plan_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="pref_unit_titles">
         <item>Kilograms/Centimeter</item>
         <item>Stone &amp; Lb\'s/Foot &amp; Inches</item>
@@ -204,7 +219,9 @@
     <string name="drawerOpen">Time To Open Navigation Drawer</string>
     <string name="note_content">I have designed this app as it will make my day to day tracking easier. I\'m putting it online so other people can use it as I find it helpful. The formula\'s I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all but from what I\'ve found, They\'re accurate!</string>
     <string name="note_title">Note!</string>
+    <string name="pref_item_select_plan">Select The Plan You Are Using</string>
     <string name="pref_item_select_unit">Select Unit of Measurement</string>
+    <string name="pref_plan_summary">Select the plan that you are using. This will change the menu\'s available in the application.</string>
     <string name="pref_unit_summary">Select which unit of measusrement to be used within the application</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

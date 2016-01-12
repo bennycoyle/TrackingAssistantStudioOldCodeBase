@@ -1,5 +1,18 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+	<PreferenceCategory
+		android:title="Plan Settings">
+		<ListPreference
+			android:id="@+id/plan"
+			android:defaultValue="0"
+			android:entries="@array/pref_plan_titles"
+			android:entryValues="@array/pref_plan_values"
+			android:key="planType"
+			android:negativeButtonText="@null"
+			android:positiveButtonText="@null"
+			android:title="@string/pref_item_select_plan"
+			android:summary="@string/pref_plan_summary"
+			/>
+	</PreferenceCategory>
     <PreferenceCategory 
         android:title="Basic Settings">
         <ListPreference 

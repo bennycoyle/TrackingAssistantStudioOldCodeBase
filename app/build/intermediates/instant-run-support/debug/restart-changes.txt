@@ -1,1 +1,3 @@
+/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/bc/navweightwatchers/SetPrefActivity.class
 /Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/bc/navweightwatchers/SPFragment.class
+/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/bc/navweightwatchers/FoodFragment.class

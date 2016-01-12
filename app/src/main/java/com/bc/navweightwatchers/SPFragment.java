@@ -103,6 +103,9 @@ public class SPFragment extends Fragment implements OnTouchListener {
                         if ( DvaluePer > 0 && Dservings > 0 ) {
                             pointsUnrounded = calcPoints(Dprotein, Dsugars, DsatFat, Dcalories, DvaluePer, Dservings);
                             pointsRounded = cf.roundIt(pointsUnrounded);
+                            if ( Integer.parseInt(pointsRounded) < 0 ) {
+                                pointsRounded = "0";
+                            }
                             cf.setPointsText(pointsHeading, points, pointsRounded);
                         } else if ( DvaluePer == 0 || Dservings == 0) {
                             cf.displayErrorMessage(getActivity(), "'Value Per' and 'Servings' must not be 0.");

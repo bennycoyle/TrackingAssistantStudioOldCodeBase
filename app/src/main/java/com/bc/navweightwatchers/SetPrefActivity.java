@@ -1,5 +1,6 @@
 package com.bc.navweightwatchers;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.preference.PreferenceManager;
 
 public class SetPrefActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 
+	public static final String KEY_PLAN_VALUE = "planType";
 	public static final String KEY_UNIT_VALUE = "unitType";
 	public static final String KEY_DOB_VALUE = "dob";
 	public static final String KEY_PROMPTAGE_CHECKBOX_VALUE = "promptAge";
@@ -17,10 +19,12 @@ public class SetPrefActivity extends PreferenceActivity implements OnSharedPrefe
 	PrefFragment pf;
 	CheckBoxPreference promptAge;
 	SharedPreferences prefs;
+	CommonFunctions cf;
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		pf = new PrefFragment();
+		cf = new CommonFunctions();
 		getFragmentManager().beginTransaction().replace(android.R.id.content, pf).commit();
 		prefs = PreferenceManager.getDefaultSharedPreferences(this);
 	}
@@ -38,7 +42,12 @@ public class SetPrefActivity extends PreferenceActivity implements OnSharedPrefe
 	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreference, String key) {
 		// TODO Auto-generated method stub
-		if ( key.equals(KEY_UNIT_VALUE) ) {
+		if ( key.equals(KEY_PLAN_VALUE) ) {
+			cf.displayErrorMessage(this, "Restarting App to Switch Plan");
+			Intent i = getBaseContext().getPackageManager().getLaunchIntentForPackage( getBaseContext().getPackageName() );
+			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(i);
+		} else if ( key.equals(KEY_UNIT_VALUE) ) {
 			checkPreferences();
 		} else if ( key.equals(KEY_DOB_VALUE) ) {
 			//DOB Changed now..

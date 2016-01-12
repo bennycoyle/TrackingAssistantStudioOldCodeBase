@@ -9,12 +9,15 @@ package com.bc.navweightwatchers;
 
 public final class R {
     public static final class array {
-        public static final int menuItems=0x7f070000;
-        public static final int pref_cm_values=0x7f070001;
-        public static final int pref_feet_values=0x7f070002;
-        public static final int pref_inches_values=0x7f070003;
-        public static final int pref_unit_titles=0x7f070004;
-        public static final int pref_unit_values=0x7f070005;
+        public static final int menuItemsPP=0x7f070000;
+        public static final int menuItemsSP=0x7f070001;
+        public static final int pref_cm_values=0x7f070002;
+        public static final int pref_feet_values=0x7f070003;
+        public static final int pref_inches_values=0x7f070004;
+        public static final int pref_plan_titles=0x7f070005;
+        public static final int pref_plan_values=0x7f070006;
+        public static final int pref_unit_titles=0x7f070007;
+        public static final int pref_unit_values=0x7f070008;
     }
     public static final class attr {
     }
@@ -107,7 +110,7 @@ public final class R {
         public static final int SP_servings=0x7f0b0058;
         public static final int SP_sugars=0x7f0b0053;
         public static final int SP_valueper=0x7f0b0057;
-        public static final int action_settings=0x7f0b005f;
+        public static final int action_settings=0x7f0b0060;
         public static final int bandditem=0x7f0b0014;
         public static final int bcFacebook=0x7f0b0002;
         public static final int bcGoogle=0x7f0b0005;
@@ -128,16 +131,17 @@ public final class R {
         public static final int inchesSpinner=0x7f0b0043;
         public static final int list=0x7f0b0015;
         public static final int main=0x7f0b0010;
-        public static final int prefCheckBox=0x7f0b0060;
-        public static final int prefEditText=0x7f0b0061;
+        public static final int plan=0x7f0b005e;
+        public static final int prefCheckBox=0x7f0b0061;
+        public static final int prefEditText=0x7f0b0062;
         public static final int tableRow1=0x7f0b0013;
         public static final int table_list_container_id=0x7f0b0012;
         public static final int textView5=0x7f0b000c;
         public static final int treatAmount=0x7f0b005d;
         public static final int treatItem=0x7f0b005c;
         public static final int treat_list_container_id=0x7f0b005b;
-        public static final int unitMeasurement=0x7f0b005e;
-        public static final int unitSelection=0x7f0b0062;
+        public static final int unitMeasurement=0x7f0b005f;
+        public static final int unitSelection=0x7f0b0063;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -152,8 +156,13 @@ public final class R {
         public static final int fillingandhealthymenu=0x7f030009;
         public static final int foodlistmenu=0x7f03000a;
         public static final int foodmenu=0x7f03000b;
-        public static final int spmenu=0x7f03000c;
-        public static final int treatmenu=0x7f03000d;
+        public static final int spalcoholmenu=0x7f03000c;
+        public static final int spexercisemenu_kgs=0x7f03000d;
+        public static final int spexercisemenu_lbs=0x7f03000e;
+        public static final int spfoodlistmenu=0x7f03000f;
+        public static final int spmenu=0x7f030010;
+        public static final int spnocountmenu=0x7f030011;
+        public static final int treatmenu=0x7f030012;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
@@ -171,8 +180,10 @@ public final class R {
         public static final int drawerOpen=0x7f090009;
         public static final int note_content=0x7f09000a;
         public static final int note_title=0x7f09000b;
-        public static final int pref_item_select_unit=0x7f09000c;
-        public static final int pref_unit_summary=0x7f09000d;
+        public static final int pref_item_select_plan=0x7f09000c;
+        public static final int pref_item_select_unit=0x7f09000d;
+        public static final int pref_plan_summary=0x7f09000e;
+        public static final int pref_unit_summary=0x7f09000f;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

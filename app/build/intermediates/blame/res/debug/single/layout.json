@@ -4,12 +4,24 @@
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/exercisemenu_kgs.xml"
     },
     {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spalcoholmenu.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spalcoholmenu.xml"
+    },
+    {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/cmpreflayout.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/cmpreflayout.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/dailymenu_feet.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_feet.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spexercisemenu_lbs.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spexercisemenu_lbs.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spnocountmenu.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spnocountmenu.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/treatmenu.xml",
@@ -22,6 +34,10 @@
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spexercisemenu_kgs.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spexercisemenu_kgs.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/boostersanddrinksmenu.xml",
@@ -42,6 +58,10 @@
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/dailymenu_cm.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_cm.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spfoodlistmenu.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spfoodlistmenu.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/about.xml",

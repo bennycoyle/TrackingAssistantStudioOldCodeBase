@@ -6,8 +6,7 @@
     
     <string name="drawerOpen">Time To Open Navigation Drawer</string>
     <string name="drawerClose">Time To Close Navigation Drawer</string>
-    <string-array name="menuItems">
-        <item >SP Calculator</item>
+    <string-array name="menuItemsPP">
         <item >PP Calculator</item>
         <item >PP Exercise Points</item>
         <item >PP Daily Allowance</item>
@@ -17,6 +16,16 @@
         <item >Treats</item>
         <item >About App</item>
     </string-array>
+
+    <string-array name="menuItemsSP">
+        <item >SP Calculator</item>
+        <item >SP Exercise Points</item>
+        <item >SP Food List</item>
+        <item >SP No Count List</item>
+        <item >SP Alcohol List</item>
+        <item >About App</item>
+    </string-array>
+
     <string name="about_app_title">About Application</string>
     <string name="about_app_content">This application can be used to generate points used, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others.</string>
     <string name="about_designer_title">About Application Author</string>

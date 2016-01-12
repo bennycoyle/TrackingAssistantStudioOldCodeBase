@@ -1,5 +1,6 @@
 package com.bc.navweightwatchers;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.content.Context;
@@ -23,14 +24,16 @@ import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity {
 
-	private String[] menuEntries;
+	public String[] menuEntries, fragments;
     private CharSequence mTitle;
     CheckBox prefCheckBox;
     TextView prefEditText;
     public static int settingsMenu = 0;
+    SharedPreferences pref;
+    String plan;
 
-	final String[] fragments = {
-            "com.bc.navweightwatchers.SPFragment",
+
+    final String[] PPFragments = {
             "com.bc.navweightwatchers.FoodFragment",
             "com.bc.navweightwatchers.ExerFragment",
             "com.bc.navweightwatchers.DailyFragment",
@@ -40,6 +43,15 @@ public class MainActivity extends FragmentActivity {
             "com.bc.navweightwatchers.TreatsListFragment",
             "com.bc.navweightwatchers.AboutFragment",
     };
+    final String [] SPFragments = {
+            "com.bc.navweightwatchers.SPFragment",
+            "com.bc.navweightwatchers.SPExerFragment",
+            "com.bc.navweightwatchers.SPFoodListFragment",
+            "com.bc.navweightwatchers.SPNoCountFragment",
+            "com.bc.navweightwatchers.SPAlcoholFragment",
+            "com.bc.navweightwatchers.AboutFragment"
+
+    };
 
     private ActionBarDrawerToggle navDrawerToggle;
 	
@@ -47,17 +59,35 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		PreferenceManager.setDefaultValues(getBaseContext(), R.xml.preferences, false);
-		
+        pref = PreferenceManager.getDefaultSharedPreferences(this);
+        plan = pref.getString(SetPrefActivity.KEY_PLAN_VALUE, "");
+
 		prefCheckBox = (CheckBox)findViewById(R.id.prefCheckBox);
 		prefEditText = (TextView)findViewById(R.id.prefEditText);
 		
 		//Setup the Entries in the list from an array in strings.xml
-		menuEntries = getResources().getStringArray(R.array.menuItems);
-		
+        if ( plan.equals("") ) {
+            //No value for plan yet... Lets assume people want SmartPoints
+            menuEntries = getResources().getStringArray(R.array.menuItemsSP);
+            fragments = SPFragments;
+        }
+        if ( plan.equals("0") ) {
+            //SmartPoints
+            menuEntries = getResources().getStringArray(R.array.menuItemsSP);
+            fragments = SPFragments;
+        }
+        if ( plan.equals("1") ) {
+            //ProPoints
+            menuEntries = getResources().getStringArray(R.array.menuItemsPP);
+            fragments = PPFragments;
+        }
+
+
+
 		//Populate the Navigation Drawer
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActionBar().getThemedContext(), android.R.layout.simple_list_item_1, menuEntries);
+		//ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActionBar().getThemedContext(), android.R.layout.simple_list_item_1, menuEntries);
 		
 		final DrawerLayout drawer = (DrawerLayout)findViewById(R.id.drawerLayout);
 		final ListView navigationList = (ListView) findViewById(R.id.drawerList);
@@ -74,17 +104,23 @@ public class MainActivity extends FragmentActivity {
 		) {
             /** Called when a drawer has settled in a completely closed state. */
             public void onDrawerClosed(View view) {
-
+                System.out.println("onDrawerClosed");
             }
             /** Called when a drawer has settled in a completely open state. */
             public void onDrawerOpened(View drawerView) {
-	
+
+            }
+            public void onDrawerSlide() {
+                // TODO Auto-generated method stub
+                System.out.println("onDrawerSlide");
             }
         };
 
-        drawer.setDrawerListener(navDrawerToggle);
 
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActionBar().getThemedContext(), android.R.layout.simple_list_item_1, menuEntries);
+        drawer.setDrawerListener(navDrawerToggle);
         navigationList.setAdapter(adapter);
+
         navigationList.setOnItemClickListener(new OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, final int pos,long id){
@@ -105,7 +141,7 @@ public class MainActivity extends FragmentActivity {
         tx.replace(R.id.main,Fragment.instantiate(MainActivity.this, fragments[0]));
         tx.commit();
 	}
-	
+
     public void setTitle(CharSequence title) {
     	mTitle = title;
         getActionBar().setTitle(mTitle);
@@ -143,7 +179,6 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
