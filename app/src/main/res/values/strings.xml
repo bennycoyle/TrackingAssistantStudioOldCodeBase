@@ -14,7 +14,7 @@
         <item >Filling &#65286; Healthy</item><!-- &#65286; is the & -->
         <item >Boosters &#65286; Drinks</item>
         <item >Treats</item>
-        <item >About App</item>
+        <item >Help &#65286; About App</item>
     </string-array>
 
     <string-array name="menuItemsSP">
@@ -23,7 +23,35 @@
         <item >SP Food List</item>
         <item >SP No Count List</item>
         <item >SP Alcohol List</item>
-        <item >About App</item>
+        <item >Help &#65286; About App</item>
+    </string-array>
+
+    <string-array name="hiddenMenuItemsPP">
+        <item >PP Calculator</item>
+        <item >PP Exercise Points</item>
+        <item >PP Daily Allowance</item>
+        <item >PP Food List</item>
+        <item >Filling &#65286; Healthy</item><!-- &#65286; is the & -->
+        <item >Boosters &#65286; Drinks</item>
+        <item >Treats</item>
+        <item>Costa Drinks</item>
+        <item>Costa Food</item>
+        <item>Subway</item>
+        <item>Nandos</item>
+        <item >Help &#65286; About App</item>
+    </string-array>
+
+    <string-array name="hiddenMenuItemsSP">
+        <item >SP Calculator</item>
+        <item >SP Exercise Points</item>
+        <item >SP Food List</item>
+        <item >SP No Count List</item>
+        <item >SP Alcohol List</item>
+        <item>Costa Drinks</item>
+        <item>Costa Food</item>
+        <item>Subway</item>
+        <item>Nandos</item>
+        <item >Help &#65286; About App</item>
     </string-array>
 
     <string name="about_app_title">About Application</string>
@@ -31,6 +59,8 @@
     <string name="about_designer_title">About Application Author</string>
     <string name="about_designer_content">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since Jan 2008 and a Gold Member since November 2008. Find out more information at the following links!</string>
     <string name="about_btkc_content">Find out more about his band \'Bite The Killer Cat\' at the following links!</string>
+    <string name="help_title">HELP!</string>
+    <string name="help_content">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
     <string name="note_title">Note!</string>
     <string name="note_content">I have designed this app as it will make my day to day tracking easier. I\'m putting it online so other people can use it as I find it helpful. The formula\'s I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all but from what I\'ve found, They\'re accurate!</string>
     <color name="black">#000000</color>

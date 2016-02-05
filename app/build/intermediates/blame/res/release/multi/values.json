@@ -7,9 +7,51 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 11,
+                    "endLine": 15,
                     "endColumn": 19,
-                    "endOffset": 420
+                    "endOffset": 555
+                },
+                "from": {
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endLine": 41,
+                        "endColumn": 19,
+                        "endOffset": 1591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 560,
+                    "endLine": 27,
+                    "endColumn": 19,
+                    "endOffset": 963
+                },
+                "from": {
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1597,
+                        "endLine": 54,
+                        "endColumn": 19,
+                        "endOffset": 2013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 968,
+                    "endLine": 37,
+                    "endColumn": 19,
+                    "endOffset": 1340
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
@@ -19,78 +61,102 @@
                         "startOffset": 361,
                         "endLine": 17,
                         "endColumn": 19,
-                        "endOffset": 748
+                        "endOffset": 762
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 425,
-                    "endLine": 19,
+                    "startOffset": 1345,
+                    "endLine": 45,
                     "endColumn": 19,
-                    "endOffset": 693
+                    "endOffset": 1620
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 754,
+                        "startOffset": 768,
                         "endLine": 26,
                         "endColumn": 19,
-                        "endOffset": 1028
+                        "endOffset": 1056
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 698,
-                    "endLine": 152,
+                    "startOffset": 1625,
+                    "endLine": 178,
                     "endColumn": 19,
-                    "endOffset": 4029
+                    "endOffset": 4956
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 1939,
+                        "endLine": 189,
+                        "endColumn": 19,
+                        "endOffset": 5533
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 153,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 4034,
-                    "endLine": 161,
-                    "endColumn": 19,
-                    "endOffset": 4253
-                },
-                "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 162,
-                    "startColumn": 4,
-                    "startOffset": 4258,
+                    "startOffset": 4961,
                     "endLine": 187,
                     "endColumn": 19,
-                    "endOffset": 4898
+                    "endOffset": 5180
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endLine": 30,
+                        "endColumn": 19,
+                        "endOffset": 1238
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 4903,
-                    "endLine": 191,
+                    "startOffset": 5185,
+                    "endLine": 213,
                     "endColumn": 19,
-                    "endOffset": 5025
+                    "endOffset": 5825
+                },
+                "from": {
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1244,
+                        "endLine": 56,
+                        "endColumn": 19,
+                        "endOffset": 1933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 5830,
+                    "endLine": 217,
+                    "endColumn": 19,
+                    "endOffset": 5952
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
@@ -106,12 +172,12 @@
             },
             {
                 "to": {
-                    "startLine": 192,
+                    "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 5030,
-                    "endLine": 195,
+                    "startOffset": 5957,
+                    "endLine": 221,
                     "endColumn": 19,
-                    "endOffset": 5134
+                    "endOffset": 6061
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
@@ -127,241 +193,414 @@
             },
             {
                 "to": {
-                    "startLine": 196,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 5139,
-                    "endLine": 199,
+                    "startOffset": 6066,
+                    "endLine": 225,
                     "endColumn": 19,
-                    "endOffset": 5296
+                    "endOffset": 6223
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 643,
+                        "endLine": 19,
+                        "endColumn": 19,
+                        "endOffset": 805
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 200,
+                    "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 5301,
-                    "endLine": 203,
+                    "startOffset": 6228,
+                    "endLine": 229,
                     "endColumn": 19,
-                    "endOffset": 5405
+                    "endOffset": 6332
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endLine": 15,
+                        "endColumn": 19,
+                        "endOffset": 637
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 204,
+                    "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 5410,
+                    "startOffset": 6337,
                     "endColumn": 39,
-                    "endOffset": 5445
+                    "endOffset": 6372
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3678,
+                        "endColumn": 39,
+                        "endOffset": 3713
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 205,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 5450,
+                    "startOffset": 6377,
                     "endColumn": 38,
-                    "endOffset": 5484
+                    "endOffset": 6411
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3718,
+                        "endColumn": 38,
+                        "endOffset": 3752
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 206,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 5489,
+                    "startOffset": 6416,
                     "endColumn": 39,
-                    "endOffset": 5524
+                    "endOffset": 6451
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3757,
+                        "endColumn": 39,
+                        "endOffset": 3792
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 207,
+                    "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 5529,
+                    "startOffset": 6456,
                     "endColumn": 57,
-                    "endOffset": 5582
+                    "endOffset": 6509
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 208,
+                    "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 5587,
+                    "startOffset": 6514,
                     "endColumn": 55,
-                    "endOffset": 5638
+                    "endOffset": 6565
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 5643,
+                    "startOffset": 6570,
                     "endColumn": 369,
-                    "endOffset": 6008
+                    "endOffset": 6935
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2081,
+                        "endColumn": 369,
+                        "endOffset": 2446
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 210,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 6013,
+                    "startOffset": 6940,
                     "endColumn": 61,
-                    "endOffset": 6070
+                    "endOffset": 6997
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2019,
+                        "endColumn": 61,
+                        "endOffset": 2076
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 211,
+                    "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 6075,
+                    "startOffset": 7002,
                     "endColumn": 123,
-                    "endOffset": 6194
+                    "endOffset": 7121
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2777,
+                        "endColumn": 123,
+                        "endOffset": 2896
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 6199,
+                    "startOffset": 7126,
                     "endColumn": 251,
-                    "endOffset": 6446
+                    "endOffset": 7373
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2525,
+                        "endColumn": 251,
+                        "endOffset": 2772
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 6451,
+                    "startOffset": 7378,
                     "endColumn": 73,
-                    "endOffset": 6520
+                    "endOffset": 7447
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2451,
+                        "endColumn": 73,
+                        "endOffset": 2520
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 6525,
+                    "startOffset": 7452,
                     "endColumn": 52,
-                    "endOffset": 6573
+                    "endOffset": 7500
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 52,
+                        "endOffset": 159
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 6578,
+                    "startOffset": 7505,
                     "endColumn": 55,
-                    "endOffset": 6629
+                    "endOffset": 7556
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 216,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 6634,
+                    "startOffset": 7561,
                     "endColumn": 49,
-                    "endOffset": 6679
+                    "endOffset": 7606
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 49,
+                        "endOffset": 209
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 217,
+                    "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 6684,
+                    "startOffset": 7611,
                     "endColumn": 71,
-                    "endOffset": 6751
+                    "endOffset": 7678
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 71,
+                        "endOffset": 356
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 218,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 6756,
+                    "startOffset": 7683,
                     "endColumn": 69,
-                    "endOffset": 6821
+                    "endOffset": 7748
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 69,
+                        "endOffset": 284
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 219,
+                    "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 6826,
-                    "endColumn": 407,
-                    "endOffset": 7229
+                    "startOffset": 7753,
+                    "endColumn": 278,
+                    "endOffset": 8027
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2946,
+                        "endColumn": 278,
+                        "endOffset": 3220
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 7234,
+                    "startOffset": 8032,
                     "endColumn": 44,
-                    "endOffset": 7274
+                    "endOffset": 8072
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2901,
+                        "endColumn": 44,
+                        "endOffset": 2941
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 221,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 7279,
+                    "startOffset": 8077,
+                    "endColumn": 407,
+                    "endOffset": 8480
+                },
+                "from": {
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3270,
+                        "endColumn": 407,
+                        "endOffset": 3673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 8485,
+                    "endColumn": 44,
+                    "endOffset": 8525
+                },
+                "from": {
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3225,
+                        "endColumn": 44,
+                        "endOffset": 3265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 8530,
                     "endColumn": 79,
-                    "endOffset": 7354
+                    "endOffset": 8605
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
@@ -376,23 +615,30 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 7359,
+                    "startOffset": 8610,
                     "endColumn": 76,
-                    "endOffset": 7431
+                    "endOffset": 8682
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 76,
+                        "endOffset": 883
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 223,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 7436,
+                    "startOffset": 8687,
                     "endColumn": 140,
-                    "endOffset": 7572
+                    "endOffset": 8823
                 },
                 "from": {
                     "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
@@ -407,40 +653,63 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 7577,
+                    "startOffset": 8828,
                     "endColumn": 113,
-                    "endOffset": 7686
+                    "endOffset": 8937
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 113,
+                        "endOffset": 998
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 225,
+                    "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 7691,
-                    "endLine": 231,
+                    "startOffset": 8942,
+                    "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 7977
+                    "endOffset": 9228
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 232,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 7982,
-                    "endLine": 234,
+                    "startOffset": 9233,
+                    "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 8137
+                    "endOffset": 9388
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml"
+                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
                 }
             }
         ]

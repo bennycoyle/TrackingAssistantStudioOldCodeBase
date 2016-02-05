@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Applications/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/pre-dexed/release/support-v4-19.1.0_d5fff3671c465a150d3a85ef5d4322e5b8ab517e.jar" />
+    </item>
+
+</items>

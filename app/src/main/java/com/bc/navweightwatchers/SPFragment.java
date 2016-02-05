@@ -1,7 +1,10 @@
 package com.bc.navweightwatchers;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -21,6 +24,10 @@ public class SPFragment extends Fragment implements OnTouchListener {
     private EditText protein, sugars, satFat, calories, valuePer, servings;
     private TextView pointsHeading, points;
     private Button calculate;
+    private String hidden;
+    SharedPreferences pref;
+    SetPrefActivity spf;
+
     CommonFunctions cf;
     View rootView;
 
@@ -33,6 +40,9 @@ public class SPFragment extends Fragment implements OnTouchListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.spmenu, container, false);
         cf = new CommonFunctions();
+        spf = new SetPrefActivity();
+        pref = PreferenceManager.getDefaultSharedPreferences(getActivity());
+
         //Link GUI Var's to GUI Segments
         //EditText's
         protein = (EditText) rootView.findViewById(R.id.SP_protein);
@@ -72,7 +82,32 @@ public class SPFragment extends Fragment implements OnTouchListener {
         double Dprotein, Dsugars, DsatFat, Dcalories, DvaluePer, Dservings, pointsUnrounded;
         String pointsRounded;
 
-        if( calories.getText().toString().equals("") || calories.getText().toString().equals(".")) {
+
+        if (    calories.getText().toString().equals("") &&
+                satFat.getText().toString().equals("") &&
+                sugars.getText().toString().equals("") &&
+                protein.getText().toString().equals("23669") ) {
+            //This is a hidden menu
+            hidden = pref.getString(SetPrefActivity.KEY_HIDDEN_EGG_VALUE, "");
+            SharedPreferences.Editor editor = pref.edit();
+
+            if ( hidden.equals("0") ) {
+                System.out.println("hidden is 0, changing to 1");
+                editor.putString("hiddenMenu", "1").apply();
+                cf.displayErrorMessage(getActivity(), "Restart the App to ADD the extra treats! :)");
+            } else if ( hidden.equals("1") ) {
+                System.out.println("hidden is 1, changing to 0");
+                editor.putString("hiddenMenu", "0").apply();
+                cf.displayErrorMessage(getActivity(), "Restart the App to HIDE the extra treats! :)");
+            } else {
+                System.out.println("This shouldn't happen");
+            }
+
+            Intent i = getActivity().getPackageManager().getLaunchIntentForPackage( getActivity().getPackageName() );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        }else if ( calories.getText().toString().equals("") || calories.getText().toString().equals(".")) {
             cf.displayErrorMessage(getActivity(), "Enter Calories Value");
         } else {
             if ( satFat.getText().toString().equals("") || satFat.getText().toString().equals(".")) {
@@ -115,6 +150,8 @@ public class SPFragment extends Fragment implements OnTouchListener {
             }
         }
     }
+
+
 
     public Double getValuePer() {
         double x = -0.0099009900;
@@ -182,7 +219,6 @@ public class SPFragment extends Fragment implements OnTouchListener {
                 cf.displayErrorMessage(getActivity(), "Value is Empty. Servings is not");
             }
         }
-
         return y;
     }
 
@@ -199,6 +235,4 @@ public class SPFragment extends Fragment implements OnTouchListener {
         e.setText("");
         return false;
     }
-
-
 }

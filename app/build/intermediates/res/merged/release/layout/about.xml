@@ -9,7 +9,73 @@
         android:shrinkColumns="*"
         android:stretchColumns="*"
         android:background="#d2dbdc">
-        
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">
+			<TextView
+				android:id="@+id/HelpHeading"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/help_title"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">
+			<TextView
+				android:id="@+id/HelpContent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/help_content"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</TableRow>
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">
+			<TextView
+				android:layout_weight="3"
+				android:layout_width="0dp"
+				android:padding="50dip"
+				android:layout_height="50dp"/>
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">"
+			<Button
+				android:layout_weight="1"
+				android:id="@+id/bcHowTo"
+				android:background="@drawable/howto"
+				android:layout_width="0dp"
+				android:padding="50dip"
+
+				android:layout_height="75dp"/>
+			<Button
+				android:layout_weight="1"
+				android:id="@+id/bcChangeplan"
+				android:background="@drawable/changeplan"
+				android:layout_width="2dp"
+				android:padding="50dip"
+				android:layout_height="75dp"/>
+		</TableRow>
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">
+			<TextView
+				android:layout_weight="3"
+				android:layout_width="0dp"
+				android:padding="50dip"
+				android:layout_height="50dp"/>
+		</TableRow>
+
+
+
 		<TableRow
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
@@ -20,7 +86,7 @@
 	            android:layout_height="wrap_content"
 	            android:text="@string/about_designer_title"
 	            android:textAppearance="?android:attr/textAppearanceLarge" />
-			</TableRow>
+		</TableRow>
 		<TableRow
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"

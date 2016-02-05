@@ -56,12 +56,12 @@
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/exercisemenu_lbs.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/dailymenu_cm.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_cm.xml"
-    },
-    {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/spfoodlistmenu.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spfoodlistmenu.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/dailymenu_cm.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_cm.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/about.xml",
@@ -70,6 +70,10 @@
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/foodmenu.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/foodmenu.xml"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/costalist.xml",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/costalist.xml"
     },
     {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/layout/fillingandhealthymenu.xml",

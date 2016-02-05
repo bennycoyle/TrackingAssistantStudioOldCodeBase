@@ -10,6 +10,7 @@ import android.preference.PreferenceManager;
 
 public class SetPrefActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 
+	public static final String KEY_HIDDEN_EGG_VALUE = "hiddenMenu";
 	public static final String KEY_PLAN_VALUE = "planType";
 	public static final String KEY_UNIT_VALUE = "unitType";
 	public static final String KEY_DOB_VALUE = "dob";
@@ -42,7 +43,10 @@ public class SetPrefActivity extends PreferenceActivity implements OnSharedPrefe
 	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreference, String key) {
 		// TODO Auto-generated method stub
-		if ( key.equals(KEY_PLAN_VALUE) ) {
+		if ( key.equals(KEY_HIDDEN_EGG_VALUE) ) {
+			System.out.println("Easter Egg is changed!");
+
+		} else if ( key.equals(KEY_PLAN_VALUE) ) {
 			cf.displayErrorMessage(this, "Restarting App to Switch Plan");
 			Intent i = getBaseContext().getPackageManager().getLaunchIntentForPackage( getBaseContext().getPackageName() );
 			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

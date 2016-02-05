@@ -8,6 +8,14 @@
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/youtube.png"
     },
     {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/changeplan.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/changeplan.png"
+    },
+    {
+        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/howto.png",
+        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/howto.png"
+    },
+    {
         "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/borderlines.xml",
         "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/borderlines.xml"
     },

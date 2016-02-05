@@ -1,0 +1,128 @@
+Drink-Milk-Small-Med-Large
+Flat White-Skimmed Milk Drink In-3-N/A-N/A
+Flat White-Skimmed Milk Takeaway-4-N/A-N/A
+Flat White-Full Fat Milk Drink In-6-N/A-N/A
+Flat White-Full Fat Milk Takeaway-8-N/A-N/A
+Flat White-Soya Milk Drink In-3-N/A-N/A
+Flat White-Soya Milk Takeaway-4-N/A-N/A
+!- - - -!
+Cappuccino-Skimmed Milk Drink In-3-4-5
+Cappuccino-Skimmed Milk Takeaway-3-4-5
+Cappuccino-Full Fat Milk Drink In-5-7-9
+Cappuccino-Full Fat Milk Takeaway-5-7-9
+Cappuccino-Soya Milk Drink In-3-4-5
+Cappuccino-Soya Milk Takeaway-3-4-5
+!- - - -!
+Caffee Latte-Skimmed Milk Drink In-3-4-5
+Caffee Latte-Skimmed Milk Takeaway-3-4-6
+Caffee Latte-Full Fat Milk Drink In-6-9-11
+Caffee Latte-Full Fat Milk Takeaway-6-9-12
+Caffee Latte-Soya Milk Drink In-3-5-6
+Caffee Latte-Soya Milk Takeaway-3-5-6
+!- - - -!
+Americano-No Milk-0-0-0
+Americano-Skimmed Milk-0-1-1
+Americano-Full Fat Milk-1-1-2
+Americano-Soya Milk-0-1-1
+!- - - -!
+Cortado-Skimmed Milk Drink In-2-N/A-N/A
+Cortado-Skimmed Milk Takeaway-2-N/A-N/A
+Cortado-Full Fat Milk Drink In-4-N/A-N/A
+Cortado-Full Fat Milk Takeaway-5-N/A-N/A
+Cortado-Soya Milk Drink In-2-N/A-N/A
+Cortado-Soya Milk Takeaway-2-N/A-N/A
+!- - - -!
+Mocha Cortado-Skimmed Milk Drink In-3-N/A-N/A
+Mocha Cortado-Skimmed Milk Takeaway-4-N/A-N/A
+Mocha Cortado-Full Fat Milk Drink In-5-N/A-N/A
+Mocha Cortado-Full Fat Milk Takeaway-6-N/A-N/A
+Mocha Cortado-Soya Milk Drink In-3-N/A-N/A
+Mocha Cortado-Soya Milk Takeaway-4-N/A-N/A
+!- - - -!
+Macchiato-Skimmed Milk-0-N/A-N/A
+Macchiato-Full Fat Milk-0-N/A-N/A
+Macchiato-Soya Milk-0-N/A-N/A
+!- - - -!
+Babyccino-Skimmed Milk-2-N/A-N/A
+Babyccino-Full Fat Milk-3-N/A-N/A
+Babyccino-Soya Milk-2-N/A-N/A
+!- - - -!
+Chocolate Babyccino-Skimmed Milk-3-N/A-N/A
+Chocolate Babyccino-Full Fat Milk-4-N/A-N/A
+Chocolate Babyccino-Soya Milk-3-N/A-N/A
+!- - - -!
+Hot Belgian Chocolate-No Milk-14-N/A-N/A
+Hot Belgian Chocolate-Skimmed Milk-17-N/A-N/A
+Hot Belgian Chocolate-Full Fat Milk-20-N/A-N/A
+Hot Belgian Chocolate-Soya Milk-17-N/A-N/A
+!- - - -!
+Hot Chocolate-Skimmed Milk Drink In-7-11-17
+Hot Chocolate-Skimmed Milk Takeaway-7-11-17
+Hot Chocolate-Full Fat Milk Drink In-10-15-22
+Hot Chocolate-Full Fat Milk Takeaway-11-15-22
+Hot Chocolate-Soya Milk Drink In-7-11-17
+Hot Chocolate-Soya Milk Takeaway-8-11-17
+!- - - -!
+Mocha-Skimmed Milk Drink In-7-11-16
+Mocha-Skimmed Milk Takeaway-8-11-17
+Mocha-Full Fat Milk Drink In-9-14-21
+Mocha-Full Fat Milk Takeaway-10-14-21
+Mocha-Soya Milk Drink In-7-11-17
+Mocha-Soya Milk Takeaway-8-11-17
+!- - - -!
+Mocha Latte-Skimmed Milk Drink In-8-12-18
+Mocha Latte-Skimmed Milk Takeaway-8-12-18
+Mocha Latte-Full Fat Milk Drink In-11-16-23
+Mocha Latte-Full Fat Milk Takeaway-12-16-24
+Mocha Latte-Soya Milk Drink In-8-12-18
+Mocha Latte-Soya Milk Takeaway-9-12-18
+!- - - -!
+Cafe Caramella-Skimmed Milk Drink In-5-8-10
+Cafe Caramella-Skimmed Milk Takeaway-6-8-10
+Cafe Caramella-Full Fat Milk Drink In-8-12-14
+Cafe Caramella-Full Fat Milk Takeaway-10-12-15
+Cafe Caramella-Soya Milk Drink In-5-8-10
+Cafe Caramella-Soya Milk Takeaway-6-8-10
+!- - - -!
+Iced Cappuccino-Skimmed Milk-3-5-6
+Iced Cappuccino-Full Fat Milk-4-6-8
+Iced Cappuccino-Soya Milk-3-5-6
+!- - - -!
+Iced Latte-Skimmed Milk-5-6-8
+Iced Latte-Full Fat Milk-7-10-12
+Iced Latte-Soya Milk-5-7-8
+!- - - -!
+Peach Lemonade--5-8-10
+Iced Lemonade--5-8-11
+Peach Iced Tea--5-8-10
+Iced Lemon Tea--5-8-11
+Iced Ginger Beer--6-9-12
+!- - - -!
+Coffee Cooler-Skimmed Milk-4-6-8
+Coffee Cooler-Full Fat Milk-6-8-10
+Coffee Cooler-Soya Milk-5-6-8
+!- - - -!
+Caramel Latte Cooler-Skimmed Milk-8-12-16
+Caramel Latte Cooler-Full Fat Milk-10-14-18
+Caramel Latte Cooler-Soya Milk-8-12-16
+!- - - -!
+Mocha Cooler-Skimmed Milk-10-14-19
+Mocha Cooler-Full Fat Milk-11-16-21
+Mocha Cooler-Soya Milk-10-15-19
+!- - - -!
+Mango & Passionfruit-Cooler-11-15-19
+Red Berry-Cooler-17-22-28
+Tropical-Cooler-16-22-27
+!- - - -!
+Strawberries & Cream-Creamy Cooler-14-19-N/A
+Strawberries & Cream-Creamy Cooler-16-22-N/A
+Strawberries & Cream-Creamy Cooler-14-19-N/A
+Sticky Toffee-Creamy Cooler-16-22-N/A
+Sticky Toffee-Creamy Cooler-18-25-N/A
+Sticky Toffee-Creamy Cooler-16-23-N/A
+Belgian Chocolate-Creamy Cooler-15-21-N/A
+Belgian Chocolate-Creamy Cooler-17-23-N/A
+Belgian Chocolate-Creamy Cooler-15-21-N/A
+Raspberry & White Choc-Creamy Cooler-19-25-N/A
+Raspberry & White Choc-Creamy Cooler-21-27-N/A
+Raspberry & White Choc-Creamy Cooler-19-25-N/A

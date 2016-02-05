@@ -15,4 +15,11 @@ public class ListFragmentLayout {
         view.findViewById(R.id.treatAmount).setId(ListFragment.INTERNAL_EMPTY_ID);
         view.findViewById(R.id.treat_list_container_id).setId(ListFragment.INTERNAL_LIST_CONTAINER_ID);
 	}
+	public static void setupCostaDrinksIds(View view) {
+		view.findViewById(R.id.cdrink).setId(ListFragment.INTERNAL_EMPTY_ID);
+		view.findViewById(R.id.cmilk).setId(ListFragment.INTERNAL_EMPTY_ID);
+		view.findViewById(R.id.csmall).setId(ListFragment.INTERNAL_LIST_CONTAINER_ID);
+		view.findViewById(R.id.cmed).setId(ListFragment.INTERNAL_EMPTY_ID);
+		view.findViewById(R.id.clarge).setId(ListFragment.INTERNAL_EMPTY_ID);
+	}
 }

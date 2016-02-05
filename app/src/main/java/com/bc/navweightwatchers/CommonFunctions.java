@@ -5,6 +5,7 @@ import java.util.Calendar;
 import com.bc.datepreference.DatePreference;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;

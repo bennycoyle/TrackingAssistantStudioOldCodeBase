@@ -1,1 +1,22 @@
-<instant-run build-id="1452548798382" verifier="COMPATIBLE"><javac duration="294"/><instant-run-dex duration="484"/><instant-run-transform duration="20"/><verifier duration="1"/></instant-run>
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="1"
+    format="3"
+    timestamp="11732858636715" >
+
+    <task
+        name="javac"
+        duration="122" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="11732858636715" />
+
+</instant-run>

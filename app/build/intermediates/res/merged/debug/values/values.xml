@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="hiddenMenuItemsPP">
+        <item>PP Calculator</item>
+        <item>PP Exercise Points</item>
+        <item>PP Daily Allowance</item>
+        <item>PP Food List</item>
+        <item>Filling ＆ Healthy</item><!-- &#65286; is the & -->
+        <item>Boosters ＆ Drinks</item>
+        <item>Treats</item>
+        <item>Costa Drinks</item>
+        <item>Costa Food</item>
+        <item>Subway</item>
+        <item>Nandos</item>
+        <item>Help ＆ About App</item>
+    </string-array>
+    <string-array name="hiddenMenuItemsSP">
+        <item>SP Calculator</item>
+        <item>SP Exercise Points</item>
+        <item>SP Food List</item>
+        <item>SP No Count List</item>
+        <item>SP Alcohol List</item>
+        <item>Costa Drinks</item>
+        <item>Costa Food</item>
+        <item>Subway</item>
+        <item>Nandos</item>
+        <item>Help ＆ About App</item>
+    </string-array>
     <string-array name="menuItemsPP">
         <item>PP Calculator</item>
         <item>PP Exercise Points</item>
@@ -8,7 +34,7 @@
         <item>Filling ＆ Healthy</item><!-- &#65286; is the & -->
         <item>Boosters ＆ Drinks</item>
         <item>Treats</item>
-        <item>About App</item>
+        <item>Help ＆ About App</item>
     </string-array>
     <string-array name="menuItemsSP">
         <item>SP Calculator</item>
@@ -16,7 +42,7 @@
         <item>SP Food List</item>
         <item>SP No Count List</item>
         <item>SP Alcohol List</item>
-        <item>About App</item>
+        <item>Help ＆ About App</item>
     </string-array>
     <string-array name="pref_cm_values">
         <item>100</item>
@@ -217,6 +243,8 @@
     <string name="button_text">Calculate</string>
     <string name="drawerClose">Time To Close Navigation Drawer</string>
     <string name="drawerOpen">Time To Open Navigation Drawer</string>
+    <string name="help_content">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
+    <string name="help_title">HELP!</string>
     <string name="note_content">I have designed this app as it will make my day to day tracking easier. I\'m putting it online so other people can use it as I find it helpful. The formula\'s I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all but from what I\'ve found, They\'re accurate!</string>
     <string name="note_title">Note!</string>
     <string name="pref_item_select_plan">Select The Plan You Are Using</string>

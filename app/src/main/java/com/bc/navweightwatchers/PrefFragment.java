@@ -41,4 +41,8 @@ public class PrefFragment extends PreferenceFragment {
 			editor.putString("CMpicker", "174").apply();
 		}
 	}
+
+	public void ChangeHidden() {
+		prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
+	}
 }

@@ -15,8 +15,9 @@ public class AboutFragment extends Fragment {
 
 	private Button btkcFb, btkcTwit, btkcTube;
 	private Button bcFb, bcTwit, bcTube, bcGoog, bcSound;
+	private Button bcHT, bcCP;
 	private String appFbPage, appTwit, appTube, appGoog, appSound;
-	private String webFb, webTwit, webTube, webGoog, webSound;
+	private String webFb, webTwit, webTube, webGoog, webSound, webHowto, webChangePlan;
 	CommonFunctions cf;
 	//Use this if want to connect to a facebook profile
 	//private String appFbProfile;
@@ -40,6 +41,10 @@ public class AboutFragment extends Fragment {
     	btkcFb = (Button) rootView.findViewById(R.id.btkcFacebook);
     	btkcTwit = (Button) rootView.findViewById(R.id.btkcTwitter);
     	btkcTube = (Button) rootView.findViewById(R.id.btkcYoutube);
+
+		//Setup Web Help buttons
+		bcHT = (Button) rootView.findViewById(R.id.bcHowTo);
+		bcCP = (Button) rootView.findViewById(R.id.bcChangeplan);
     	
     	//Setup App Link URL's
     	appFbPage = "fb://page/";
@@ -55,6 +60,8 @@ public class AboutFragment extends Fragment {
     	webTube = "http://www.youtube.com/user/";
     	webGoog = "http://plus.google.com/+";
     	webSound = "http://www.soundcloud.com/";
+		webHowto = "http://brendancoyle.ie/2016/01/trackingassistant-sp-how-to/";
+		webChangePlan = "http://brendancoyle.ie/2016/01/tracking-assistant-updates/";
     	
     	cf = new CommonFunctions();
     	
@@ -130,6 +137,23 @@ public class AboutFragment extends Fragment {
     			launchIntent(appID, webID);
     		}
     	});
+
+		//Setup Web Help Buttong Clicks
+		bcHT.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				String appID = webHowto;
+				String webID = webHowto;
+				launchIntent(appID, webID);
+			}
+		});
+
+		bcCP.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				String appID = webChangePlan;
+				String webID = webChangePlan;
+				launchIntent(appID, webID);
+			}
+		});
                 
         return rootView;
     }
