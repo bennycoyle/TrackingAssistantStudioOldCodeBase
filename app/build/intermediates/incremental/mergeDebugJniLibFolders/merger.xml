@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/brendan/StudioProjects/NavWeightWatchers/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/debug/jniLibs"/></dataSet></merger>

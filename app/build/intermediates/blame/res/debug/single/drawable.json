@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/google.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/google.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/youtube.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/youtube.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/youtube.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/youtube.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/facebook.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/facebook.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/changeplan.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/changeplan.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/twitter.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/twitter.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/howto.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/howto.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/howto.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/howto.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/borderlines.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/borderlines.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/borderlines.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/borderlines.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/facebook.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/facebook.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/changeplan.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/changeplan.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/twitter.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/twitter.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/google.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/google.png"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/drawable/soundcloud.png",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/drawable/soundcloud.png"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/debug/drawable/soundcloud.png",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/drawable/soundcloud.png"
     }
 ]

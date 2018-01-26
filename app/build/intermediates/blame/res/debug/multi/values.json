@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 555
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1062,
-                        "endLine": 41,
+                        "startOffset": 1099,
+                        "endLine": 42,
                         "endColumn": 19,
-                        "endOffset": 1591
+                        "endOffset": 1628
                     }
                 }
             },
@@ -28,33 +28,33 @@
                     "startLine": 16,
                     "startColumn": 4,
                     "startOffset": 560,
-                    "endLine": 27,
+                    "endLine": 28,
                     "endColumn": 19,
-                    "endOffset": 963
+                    "endOffset": 999
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 43,
+                        "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 1597,
-                        "endLine": 54,
+                        "startOffset": 1634,
+                        "endLine": 56,
                         "endColumn": 19,
-                        "endOffset": 2013
+                        "endOffset": 2087
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 968,
-                    "endLine": 37,
+                    "startOffset": 1004,
+                    "endLine": 38,
                     "endColumn": 19,
-                    "endOffset": 1340
+                    "endOffset": 1376
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -67,649 +67,408 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1345,
-                    "endLine": 45,
+                    "startOffset": 1381,
+                    "endLine": 47,
                     "endColumn": 19,
-                    "endOffset": 1620
+                    "endOffset": 1692
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 768,
-                        "endLine": 26,
-                        "endColumn": 19,
-                        "endOffset": 1056
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 1625,
-                    "endLine": 178,
+                    "startOffset": 1697,
+                    "endLine": 180,
                     "endColumn": 19,
-                    "endOffset": 4956
+                    "endOffset": 5028
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 1939,
-                        "endLine": 189,
-                        "endColumn": 19,
-                        "endOffset": 5533
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 4961,
-                    "endLine": 187,
+                    "startOffset": 5033,
+                    "endLine": 189,
                     "endColumn": 19,
-                    "endOffset": 5180
+                    "endOffset": 5252
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1004,
-                        "endLine": 30,
-                        "endColumn": 19,
-                        "endOffset": 1238
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 5185,
-                    "endLine": 213,
+                    "startOffset": 5257,
+                    "endLine": 215,
                     "endColumn": 19,
-                    "endOffset": 5825
+                    "endOffset": 5897
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1244,
-                        "endLine": 56,
-                        "endColumn": 19,
-                        "endOffset": 1933
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 5830,
-                    "endLine": 217,
+                    "startOffset": 5902,
+                    "endLine": 219,
                     "endColumn": 19,
-                    "endOffset": 5952
+                    "endOffset": 6024
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 172,
-                        "endLine": 9,
-                        "endColumn": 19,
-                        "endOffset": 299
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 218,
+                    "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 5957,
-                    "endLine": 221,
+                    "startOffset": 6029,
+                    "endLine": 223,
                     "endColumn": 19,
-                    "endOffset": 6061
+                    "endOffset": 6133
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endLine": 5,
-                        "endColumn": 19,
-                        "endOffset": 166
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 6066,
-                    "endLine": 225,
+                    "startOffset": 6138,
+                    "endLine": 227,
                     "endColumn": 19,
-                    "endOffset": 6223
+                    "endOffset": 6295
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 643,
-                        "endLine": 19,
-                        "endColumn": 19,
-                        "endOffset": 805
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 6228,
-                    "endLine": 229,
+                    "startOffset": 6300,
+                    "endLine": 231,
                     "endColumn": 19,
-                    "endOffset": 6332
+                    "endOffset": 6404
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 528,
-                        "endLine": 15,
-                        "endColumn": 19,
-                        "endOffset": 637
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 230,
-                    "startColumn": 4,
-                    "startOffset": 6337,
-                    "endColumn": 39,
-                    "endOffset": 6372
-                },
-                "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 65,
-                        "startColumn": 4,
-                        "startOffset": 3678,
-                        "endColumn": 39,
-                        "endOffset": 3713
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 231,
-                    "startColumn": 4,
-                    "startOffset": 6377,
-                    "endColumn": 38,
-                    "endOffset": 6411
-                },
-                "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 66,
-                        "startColumn": 4,
-                        "startOffset": 3718,
-                        "endColumn": 38,
-                        "endOffset": 3752
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 6416,
+                    "startOffset": 6409,
                     "endColumn": 39,
-                    "endOffset": 6451
+                    "endOffset": 6444
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 67,
-                        "startColumn": 4,
-                        "startOffset": 3757,
-                        "endColumn": 39,
-                        "endOffset": 3792
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 6456,
-                    "endColumn": 57,
-                    "endOffset": 6509
+                    "startOffset": 6449,
+                    "endColumn": 38,
+                    "endOffset": 6483
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endColumn": 57,
-                        "endOffset": 145
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 6514,
-                    "endColumn": 55,
-                    "endOffset": 6565
+                    "startOffset": 6488,
+                    "endColumn": 39,
+                    "endOffset": 6523
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 55,
-                        "endOffset": 202
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 6570,
-                    "endColumn": 369,
-                    "endOffset": 6935
+                    "startOffset": 6528,
+                    "endColumn": 57,
+                    "endOffset": 6581
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 2081,
-                        "endColumn": 369,
-                        "endOffset": 2446
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 6940,
-                    "endColumn": 61,
-                    "endOffset": 6997
+                    "startOffset": 6586,
+                    "endColumn": 55,
+                    "endOffset": 6637
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2019,
-                        "endColumn": 61,
-                        "endOffset": 2076
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 7002,
-                    "endColumn": 123,
-                    "endOffset": 7121
+                    "startOffset": 6642,
+                    "endColumn": 369,
+                    "endOffset": 7007
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 60,
-                        "startColumn": 4,
-                        "startOffset": 2777,
-                        "endColumn": 123,
-                        "endOffset": 2896
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 7126,
-                    "endColumn": 251,
-                    "endOffset": 7373
+                    "startOffset": 7012,
+                    "endColumn": 61,
+                    "endOffset": 7069
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 59,
-                        "startColumn": 4,
-                        "startOffset": 2525,
-                        "endColumn": 251,
-                        "endOffset": 2772
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 7378,
-                    "endColumn": 73,
-                    "endOffset": 7447
+                    "startOffset": 7074,
+                    "endColumn": 123,
+                    "endOffset": 7193
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 2451,
-                        "endColumn": 73,
-                        "endOffset": 2520
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 7452,
-                    "endColumn": 52,
-                    "endOffset": 7500
+                    "startOffset": 7198,
+                    "endColumn": 251,
+                    "endOffset": 7445
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 111,
-                        "endColumn": 52,
-                        "endOffset": 159
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 7505,
-                    "endColumn": 55,
-                    "endOffset": 7556
+                    "startOffset": 7450,
+                    "endColumn": 73,
+                    "endOffset": 7519
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 55,
-                        "endOffset": 106
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 7561,
-                    "endColumn": 49,
-                    "endOffset": 7606
+                    "startOffset": 7524,
+                    "endColumn": 52,
+                    "endOffset": 7572
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 164,
-                        "endColumn": 49,
-                        "endOffset": 209
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 7611,
-                    "endColumn": 71,
-                    "endOffset": 7678
+                    "startOffset": 7577,
+                    "endColumn": 55,
+                    "endOffset": 7628
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 289,
-                        "endColumn": 71,
-                        "endOffset": 356
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 7683,
-                    "endColumn": 69,
-                    "endOffset": 7748
+                    "startOffset": 7633,
+                    "endColumn": 49,
+                    "endOffset": 7678
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 219,
-                        "endColumn": 69,
-                        "endOffset": 284
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 7753,
-                    "endColumn": 278,
-                    "endOffset": 8027
+                    "startOffset": 7683,
+                    "endColumn": 71,
+                    "endOffset": 7750
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 2946,
-                        "endColumn": 278,
-                        "endOffset": 3220
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 8032,
-                    "endColumn": 44,
-                    "endOffset": 8072
+                    "startOffset": 7755,
+                    "endColumn": 69,
+                    "endOffset": 7820
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 2901,
-                        "endColumn": 44,
-                        "endOffset": 2941
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 8077,
-                    "endColumn": 407,
-                    "endOffset": 8480
+                    "startOffset": 7825,
+                    "endColumn": 278,
+                    "endOffset": 8099
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 3270,
-                        "endColumn": 407,
-                        "endOffset": 3673
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 8485,
+                    "startOffset": 8104,
                     "endColumn": 44,
-                    "endOffset": 8525
+                    "endOffset": 8144
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 63,
-                        "startColumn": 4,
-                        "startOffset": 3225,
-                        "endColumn": 44,
-                        "endOffset": 3265
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 8530,
-                    "endColumn": 79,
-                    "endOffset": 8605
+                    "startOffset": 8149,
+                    "endColumn": 407,
+                    "endOffset": 8552
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 79,
-                        "endOffset": 380
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 8610,
-                    "endColumn": 76,
-                    "endOffset": 8682
+                    "startOffset": 8557,
+                    "endColumn": 44,
+                    "endOffset": 8597
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 811,
-                        "endColumn": 76,
-                        "endOffset": 883
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 8687,
-                    "endColumn": 140,
-                    "endOffset": 8823
+                    "startOffset": 8602,
+                    "endColumn": 79,
+                    "endOffset": 8677
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 386,
-                        "endColumn": 140,
-                        "endOffset": 522
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 8828,
-                    "endColumn": 113,
-                    "endOffset": 8937
+                    "startOffset": 8682,
+                    "endColumn": 76,
+                    "endOffset": 8754
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/settings_string.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 889,
-                        "endColumn": 113,
-                        "endOffset": 998
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 8942,
-                    "endLine": 259,
-                    "endColumn": 12,
-                    "endOffset": 9228
+                    "startOffset": 8759,
+                    "endColumn": 140,
+                    "endOffset": 8895
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 191,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 481
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 260,
+                    "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 9233,
-                    "endLine": 262,
-                    "endColumn": 12,
-                    "endOffset": 9388
+                    "startOffset": 8900,
+                    "endColumn": 113,
+                    "endOffset": 9009
                 },
                 "from": {
-                    "file": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 522,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 679
-                    }
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/settings_string.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 9014,
+                    "endLine": 257,
+                    "endColumn": 12,
+                    "endOffset": 9092
+                },
+                "from": {
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 9097,
+                    "endLine": 260,
+                    "endColumn": 12,
+                    "endOffset": 9164
+                },
+                "from": {
+                    "file": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/values/styles.xml"
                 }
             }
         ]

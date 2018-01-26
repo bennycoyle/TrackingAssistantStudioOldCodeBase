@@ -44,7 +44,7 @@ public class AboutFragment extends Fragment {
 
 		//Setup Web Help buttons
 		bcHT = (Button) rootView.findViewById(R.id.bcHowTo);
-		bcCP = (Button) rootView.findViewById(R.id.bcChangeplan);
+		//bcCP = (Button) rootView.findViewById(R.id.bcChangeplan);
     	
     	//Setup App Link URL's
     	appFbPage = "fb://page/";
@@ -61,7 +61,7 @@ public class AboutFragment extends Fragment {
     	webGoog = "http://plus.google.com/+";
     	webSound = "http://www.soundcloud.com/";
 		webHowto = "http://brendancoyle.ie/2016/01/trackingassistant-sp-how-to/";
-		webChangePlan = "http://brendancoyle.ie/2016/01/tracking-assistant-updates/";
+		//webChangePlan = "http://brendancoyle.ie/2016/01/tracking-assistant-updates/";
     	
     	cf = new CommonFunctions();
     	
@@ -147,14 +147,14 @@ public class AboutFragment extends Fragment {
 			}
 		});
 
-		bcCP.setOnClickListener(new OnClickListener() {
+		/*bcCP.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				String appID = webChangePlan;
 				String webID = webChangePlan;
 				launchIntent(appID, webID);
 			}
 		});
-                
+          */
         return rootView;
     }
     

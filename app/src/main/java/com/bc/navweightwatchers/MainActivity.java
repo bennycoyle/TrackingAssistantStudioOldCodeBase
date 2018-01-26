@@ -47,6 +47,7 @@ public class MainActivity extends FragmentActivity {
             "com.bc.navweightwatchers.SPFragment",
             "com.bc.navweightwatchers.SPExerFragment",
             "com.bc.navweightwatchers.SPFoodListFragment",
+            "com.bc.navweightwatchers.SPZeroPointsFragment",
             "com.bc.navweightwatchers.SPNoCountFragment",
             "com.bc.navweightwatchers.SPAlcoholFragment",
             "com.bc.navweightwatchers.AboutFragment"
@@ -70,6 +71,7 @@ public class MainActivity extends FragmentActivity {
             "com.bc.navweightwatchers.SPFragment",
             "com.bc.navweightwatchers.SPExerFragment",
             "com.bc.navweightwatchers.SPFoodListFragment",
+            "com.bc.navweightwatchers.SPZeroPointsFragment",
             "com.bc.navweightwatchers.SPNoCountFragment",
             "com.bc.navweightwatchers.SPAlcoholFragment",
             "com.bc.navweightwatchers.CostaDrinksFragment",
@@ -88,7 +90,8 @@ public class MainActivity extends FragmentActivity {
 
 		PreferenceManager.setDefaultValues(getBaseContext(), R.xml.preferences, false);
         pref = PreferenceManager.getDefaultSharedPreferences(this);
-        plan = pref.getString(SetPrefActivity.KEY_PLAN_VALUE, "");
+        //plan = pref.getString(SetPrefActivity.KEY_PLAN_VALUE, "");
+        plan = "0";
         hidden = pref.getString(SetPrefActivity.KEY_HIDDEN_EGG_VALUE, "");
 
 		prefCheckBox = (CheckBox)findViewById(R.id.prefCheckBox);

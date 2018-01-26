@@ -40,28 +40,38 @@
 				android:layout_weight="3"
 				android:layout_width="0dp"
 				android:padding="50dip"
-				android:layout_height="50dp"/>
+				android:layout_height="30dp"/>
 		</TableRow>
 
 		<TableRow
 			android:layout_height="wrap_content"
 			android:layout_width="fill_parent"
 			android:gravity="center_horizontal">"
-			<Button
+			<TextView
 				android:layout_weight="1"
+				android:layout_width="0dp"
+				android:padding="50dip"
+				android:layout_height="50dp"/>
+			<Button
+				android:layout_weight="3"
 				android:id="@+id/bcHowTo"
 				android:background="@drawable/howto"
 				android:layout_width="0dp"
 				android:padding="50dip"
 
 				android:layout_height="75dp"/>
-			<Button
+			<TextView
+				android:layout_weight="1"
+				android:layout_width="0dp"
+				android:padding="50dip"
+				android:layout_height="50dp"/>
+		<!--	<Button
 				android:layout_weight="1"
 				android:id="@+id/bcChangeplan"
 				android:background="@drawable/changeplan"
 				android:layout_width="2dp"
 				android:padding="50dip"
-				android:layout_height="75dp"/>
+				android:layout_height="75dp"/> -->
 		</TableRow>
 		<TableRow
 			android:layout_height="wrap_content"

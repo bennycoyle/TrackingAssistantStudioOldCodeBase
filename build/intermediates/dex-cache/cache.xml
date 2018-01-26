@@ -2,11 +2,40 @@
 <items version="2" >
 
     <item
-        jar="/Applications/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="21.1.1"
+        is-multidex="true"
+        jar="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_926812c12b181ff911a7a0f87baee04fdd2e55cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bennycoyle/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/pre-dexed/release/support-v4-19.1.0_d5fff3671c465a150d3a85ef5d4322e5b8ab517e.jar" />
+        <dex dex="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_cc20c0cbe7c2722a02ac45193a239dea5f096a1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bennycoyle/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/pre-dexed/release/support-v4-19.1.0_cc20c0cbe7c2722a02ac45193a239dea5f096a1c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b51a7bfa85b0125dbe250254ad174da5b3031b6">
+        <dex dex="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0cab3f036e9bfab4238da2c9eff78ba5cdd14bf3/classes.dex" />
     </item>
 
 </items>

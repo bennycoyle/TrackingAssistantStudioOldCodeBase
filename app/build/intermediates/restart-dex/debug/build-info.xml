@@ -1,22 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="1"
-    format="3"
-    timestamp="11732858636715" >
+    abi="x86_64,x86"
+    api-level="25"
+    build-mode="COLD"
+    density="xxhdpi"
+    format="10"
+    plugin-version="2.3.3"
+    timestamp="1517000121719"
+    token="-2886349034203694622"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="122" />
+        duration="173" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="58" />
     <task
         name="verifier"
-        duration="0" />
+        duration="11" />
 
-    <build timestamp="11732858636715" />
+    <artifact
+        location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1516999933566"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1517000121719"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

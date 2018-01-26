@@ -1,82 +1,86 @@
 [
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/costalist.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/costalist.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/foodmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/foodmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/treatmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/treatmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/cmpreflayout.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/cmpreflayout.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spexercisemenu_kgs.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spexercisemenu_kgs.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/exercisemenu_lbs.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/exercisemenu_lbs.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/exercisemenu_lbs.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/exercisemenu_lbs.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/dailymenu_feet.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/dailymenu_feet.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spalcoholmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spalcoholmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/fillingandhealthymenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/fillingandhealthymenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/about.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/about.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/feetheightpreflayout.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/feetheightpreflayout.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spnocountmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spnocountmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/activity_main.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/costalist.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/costalist.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/foodmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/foodmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/treatmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/treatmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/cmpreflayout.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/cmpreflayout.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/about.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/about.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/dailymenu_feet.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_feet.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spfoodlistmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spfoodlistmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/exercisemenu_kgs.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/exercisemenu_kgs.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spzeropointmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spzeropointmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spalcoholmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spalcoholmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/dailymenu_cm.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/dailymenu_cm.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/foodlistmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/foodlistmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/fillingandhealthymenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/fillingandhealthymenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spfoodlistmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spfoodlistmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/boostersanddrinksmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/boostersanddrinksmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spexercisemenu_lbs.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spexercisemenu_lbs.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/exercisemenu_kgs.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/exercisemenu_kgs.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/spnocountmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/spnocountmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/foodlistmenu.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/foodlistmenu.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/dailymenu_cm.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/dailymenu_cm.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/feetheightpreflayout.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/feetheightpreflayout.xml"
     },
     {
-        "merged": "/Users/brendan/StudioProjects/NavWeightWatchers/app/build/intermediates/res/merged/release/layout/boostersanddrinksmenu.xml",
-        "source": "/Users/brendan/StudioProjects/NavWeightWatchers/app/src/main/res/layout/boostersanddrinksmenu.xml"
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spexercisemenu_lbs.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spexercisemenu_lbs.xml"
+    },
+    {
+        "merged": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/build/intermediates/res/merged/release/layout/spexercisemenu_kgs.xml",
+        "source": "/Users/bennycoyle/Documents/workspace/TrackingAssistantStudio/app/src/main/res/layout/spexercisemenu_kgs.xml"
     }
 ]
