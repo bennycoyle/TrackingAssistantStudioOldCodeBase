@@ -55,7 +55,10 @@
         <item>Nandos</item>
         <item >Help &#65286; About App</item>
     </string-array>
-
+    <string name="help_heading"><b><u>HELP</u></b></string>
+    <string name="help_sub_heading"><b>VALUE PER and Servings Fields</b></string>
+    <string name="help_mls"><u>Working with Grams/Mls</u></string>
+    <string name="help_portion"><u>Working with Portions</u></string>
     <string name="about_app_title">About Application</string>
     <string name="about_app_content">This application can be used to generate points used, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others.</string>
     <string name="about_designer_title">About Application Author</string>
