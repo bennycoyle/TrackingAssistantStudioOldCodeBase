@@ -21,7 +21,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:weightSum="3"
-        android:layout_height="wrap_content"
+        android:layout_height="240dp"
         android:layout_below="@+id/banner">
 
         <!--  Table layout to have all the EditTexts -->
@@ -122,11 +122,11 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:background="#cac9c9"
-
             android:layout_height="wrap_content">
             <TableRow
                 android:layout_height="wrap_content"
-                android:layout_width="match_parent">
+                android:layout_width="match_parent"
+                android:paddingTop="20dp">
                 <TextView
                     android:id="@+id/SP_points"
                     android:layout_weight="1"
@@ -146,7 +146,7 @@
                     android:id="@+id/SP_pointsheading"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:background="#cac9c9"
                     android:gravity="center"
                     android:padding="12dip"
@@ -161,10 +161,11 @@
                     android:id="@+id/helpButton"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:scaleType="centerInside"
                     android:background="#cac9c9"
                     android:adjustViewBounds="false"
+                    android:paddingBottom="10dp"
                     android:src="@drawable/ic_help_outline_black_48dp"
                     />
 
@@ -175,7 +176,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/cellsLinear"
-        android:paddingTop="30dp"
+        android:paddingTop="15dp"
         android:weightSum="2">
         <Button
             android:text="@string/button_text"
